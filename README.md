@@ -1,12 +1,12 @@
-# 🌳 Family Tree Relationships in Python
+# Family Tree Relationships in Python
 
-## 📝 Project Overview
+## Project Overview
 
 This project is a Python implementation to analyze family tree relationships represented as a tree structure using nested lists.
 
 ---
 
-## 🏛️ Key Features
+## Key Features
 
 Tree Representation: Family members are organized hierarchically using a list-based tree structure.
 
@@ -24,7 +24,7 @@ Supports Case Sensitivity: Lowercase letters represent males, uppercase represen
 
 ---
 
-## 🛠️ Key Functions
+## Key Functions
 
 parent(tree, name) – Finds the parent of name.
 
@@ -42,8 +42,9 @@ cousins(tree, name) – Finds the cousins of name.
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
+```
 from family_tree import parent, brothers, sisters, uncles, aunts, cousins
 
 family_tree = ['A', ['b', ['c'], ['D']], ['e', ['F']]]
@@ -51,24 +52,27 @@ print("Parent of 'c':", parent(family_tree, 'c'))
 print("Brothers of 'c':", brothers(family_tree, 'c'))
 print("Sisters of 'c':", sisters(family_tree, 'c'))
 print("Uncles of 'c':", uncles(family_tree, 'c'))
+```
 
 ---
 
-## 📤 Sample Output
+## Sample Output
 
+```
 Parent of 'c': b
 Brothers of 'c': []
 Sisters of 'c': ['D']
 Uncles of 'c': ['e']
+```
 
 ---
 
-## 🧑‍💻 Dependencies
+## Dependencies
 
 Python 3.x
 
 ---
 
-## 📫 Contact
+## Contact
 
 Feel free to reach out for questions or contributions!
